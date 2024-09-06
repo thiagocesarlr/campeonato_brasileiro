@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Campeonato Brasileiro</title>
+</head>
+<body>
+    <header>
+        <h1>Campeonato Brasileiro</h1>
+        <img src="camp.png" alt="" />
+    </header>
+    <main>
+        <section>
+            <input id="campo-pesquisa" type="text" placeholder="Digite o nome do time">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+      <p>2024 - Campeonato Brasileiro. Sérias: A, B, C e D</p>
+      <p>Entre em contato pelo email: thiagolrocha2606@gmail.com.br</p>
+    </footer>
+    <script src="dados.js"></script> <!-- Carregue dados.js antes de app.js -->
+    <script src="app.js"></script> <!-- Carregue app.js depois de dados.js -->
+</body>
+</html>
